@@ -1,0 +1,459 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-one {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: #fffefe;
+}
+
+.section-one div {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section-two {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #d1e3ff;
+	color: #fffefe;
+}
+
+.section-two div {
+	margin-left: 30px;
+	margin-right: 30px;
+	color: #0355ce;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+}
+
+li {
+	margin-left: 30px;
+}
+
+.active {
+	color: #3f6aeb;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #3f6aeb;
+}
+
+.section-three {
+	width: 100%;
+	height: 690px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d1e3ff;
+}
+
+.repair {
+	width: 550px;
+}
+
+.repair p:nth-child(1) {
+	font-size: 40px;
+	font-weight: bold;
+	color: #085bcf;
+	margin-bottom: 25px;
+}
+
+.repair p:nth-child(2) {
+	color: rgb(102, 99, 99);
+	margin-bottom: 25px;
+}
+
+.repair button {
+	border: none;
+	background-color: #ff8a1d;
+	color: white;
+	width: 185px;
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.repair button:hover {
+	cursor: pointer;
+	background-color: #f17e13;
+}
+
+.section-four {
+	position: absolute;
+	width: 1150px;
+	height: 224px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 650px;
+	left: 240px;
+}
+
+.four-box {
+	width: 360px;
+	height: 224px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.four-box:nth-child(2) {
+	background-color: #ff8a1d;
+	color: white;
+}
+
+.four-box img {
+	width: 75px;
+	height: 75px;
+	margin-bottom: 20px;
+}
+
+.four-box p {
+	font-size: 28px;
+}
+
+.four-box:hover {
+	cursor: pointer;
+	background-color: #ff8a1d;
+	color: white;
+}
+
+.section-five {
+	width: 100%;
+	height: 797px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-five img {
+	width: 652px;
+	height: 442px;
+}
+
+.about {
+	width: 550px;
+}
+
+.about p:nth-child(1) {
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 25px;
+}
+
+.about p:nth-child(2) {
+	color: rgb(102, 99, 99);
+	margin-bottom: 25px;
+}
+
+.about button {
+	border: none;
+	background-color: #0355cc;
+	color: white;
+	width: 185px;
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.about button:hover {
+	cursor: pointer;
+	background-color: #07429c;
+}
+
+.section-six {
+	width: 100%;
+	height: 842px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d1e3ff;
+}
+
+.provide {
+	width: 520px;
+}
+
+.provide p:nth-child(1) {
+	font-size: 30px;
+	font-weight: bold;
+	color: #085bcf;
+	margin-bottom: 25px;
+}
+
+.provide p:nth-child(2) {
+	color: rgb(102, 99, 99);
+	margin-bottom: 25px;
+}
+
+.provide button {
+	border: none;
+	background-color: #ff8a1d;
+	color: white;
+	width: 185px;
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.provide button:hover {
+	cursor: pointer;
+	background-color: #f17e13;
+}
+
+.section-seven {
+	width: 100%;
+	height: 692px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.services {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.service-box {
+	padding: 20px;
+	width: 250px;
+	height: 250px;
+}
+
+.service-box:hover {
+	cursor: pointer;
+	background-color: #ff8a1d;
+	color: white;
+}
+
+.service-box:nth-child(2) {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.service-box img {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.service-box h2 {
+	margin-bottom: 10px;
+}
+
+.section-seven button {
+	border: none;
+	background-color: #0355cc;
+	color: white;
+	width: 185px;
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.section-seven button:hover {
+	cursor: pointer;
+	background-color: #07429c;
+}
+
+.section-eight {
+	width: 100%;
+	height: 692px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.clients {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.clients-box {
+	width: 455px;
+}
+
+.clients-image {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.round {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.next {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.section-eight button {
+	border: none;
+	background-color: #0355cc;
+	color: white;
+	width: 80px;
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.section-eight button:hover {
+	cursor: pointer;
+	background-color: #07429c;
+}
+
+.section-nine {
+	width: 100%;
+	height: 692px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+}
+
+.contact label {
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.contact input {
+	width: 300px;
+	height: 30px;
+}
+
+.contact textarea {
+	width: 300px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.contact button {
+	border: none;
+	background-color: #0355cc;
+	color: white;
+	width: 185px;
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contact button:hover {
+	cursor: pointer;
+	background-color: #07429c;
+}
+
+.section-ten {
+	width: 100%;
+	height: 570px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0a0f43;
+	color: white;
+}
+
+.touch {
+	width: 750px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.circle {
+	width: 250px;
+}
+
+.circle div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #0355cc;
+	margin-left: 35%;
+	margin-bottom: 20px;
+}
+
+.circle div:hover {
+	cursor: pointer;
+	background-color: #ff8a1d;
+}
+
+.circle div img {
+	height: 25px;
+}
+
+.follow {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	width: 120px;
+	height: 30px;
+	background-color: white;
+}
+
+.copyright {
+	width: 1000px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 2px solid white;
+}
+
+.copyright p {
+	margin-top: 10px;
+}
